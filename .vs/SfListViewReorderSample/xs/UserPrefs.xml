@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{93F21420-C3AC-4B7E-9B03-AFC492133C34}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="状態: SfListViewReorderSample">
+    <Files>
+      <File FileName="状態: SfListViewReorderSample" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SfListViewReorderSample.Android PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MultiItemStartupConfigurations />
+</Properties>
