@@ -15,9 +15,8 @@ namespace SfListViewReorderSample
 		{
 			InitializeComponent();
 
-			this.BindingContext = new MainPageViewModel();
-
-			//this.sflistview.DragDropController.UpdateSource = true;
+			// enable reordering the underlying collection
+			this.sflistview.DragDropController.UpdateSource = true;
 		}
 
 		/// <summary>
@@ -26,17 +25,17 @@ namespace SfListViewReorderSample
 		/// </summary>
 		/// <param name="sender">Sender.</param>
 		/// <param name="e">E.</param>
-		void Handle_ItemDragging(object sender, Syncfusion.ListView.XForms.ItemDraggingEventArgs e)
-		{
-			if (e.Action == DragAction.Drop)
-			{
-				var vm = BindingContext as MainPageViewModel;
+		//void Handle_ItemDragging(object sender, Syncfusion.ListView.XForms.ItemDraggingEventArgs e)
+		//{
+		//if (e.Action == DragAction.Drop)
+		//{
+		//	var vm = BindingContext as MainPageViewModel;
 
-				//Swap Event
-				var tempEvent = vm.m_Events[e.OldIndex];
-				vm.m_Events[e.OldIndex] = vm.m_Events[e.NewIndex];
-				vm.m_Events[e.NewIndex] = tempEvent;
-			}
-		}
+		//	//Swap Event
+		//	var tempEvent = vm.m_Events[e.OldIndex];
+		//	vm.m_Events[e.OldIndex] = vm.m_Events[e.NewIndex];
+		//	vm.m_Events[e.NewIndex] = tempEvent;
+		//}
+		//}
 	}
 }

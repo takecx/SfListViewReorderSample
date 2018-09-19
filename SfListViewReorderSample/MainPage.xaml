@@ -7,10 +7,10 @@
 			 xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
 			 xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
 			 ios:Page.UseSafeArea="true">
-<!--	<ContentPage.BindingContext>
+	<ContentPage.BindingContext>
 		<vm:MainPageViewModel/>
 	</ContentPage.BindingContext>
--->		<syncfusion:SfListView x:Name="sflistview" ItemsSource="{Binding m_Events,UpdateSourceEventName=PropertyChanged,Mode=TwoWay}" DragStartMode="OnDragIndicator" ItemDragging="Handle_ItemDragging" ItemSize="60">
+		<syncfusion:SfListView x:Name="sflistview" ItemsSource="{Binding m_Events,UpdateSourceEventName=PropertyChanged,Mode=TwoWay}" DragStartMode="OnDragIndicator" ItemSize="60">
 			<syncfusion:SfListView.ItemTemplate>
 				<DataTemplate>
 					<Grid BackgroundColor="Silver" Margin="5">
